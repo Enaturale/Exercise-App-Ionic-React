@@ -7,16 +7,16 @@ const Home: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Blank</IonTitle>
+          <IonTitle>Getting it Right!</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <IonHeader collapse="condense">
+        {/* <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
+            <IonTitle size="large">Getting it Right!</IonTitle>
           </IonToolbar>
-        </IonHeader>
-        <ExploreContainer />
+        </IonHeader> */}
+        {/* <ExploreContainer /> */}
       </IonContent>
     </IonPage>
   );
