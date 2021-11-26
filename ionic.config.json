@@ -1,0 +1,7 @@
+{
+  "name": "gettingitright",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
