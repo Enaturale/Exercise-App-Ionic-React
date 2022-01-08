@@ -9,7 +9,7 @@ const Welcome: React.FC = () => {
     <IonPage>
         <IonContent>
             <IonTitle>
-                <h2>Get FIT!</h2>
+                <h2>Hello, firstname.</h2>
             </IonTitle>
         </IonContent>
     </IonPage>

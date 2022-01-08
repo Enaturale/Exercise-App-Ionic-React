@@ -42,12 +42,17 @@ import './Login.css';
             <IonCard className="card" style={{backgroundImage:`url(${fit})`,height: '460px', paddingTop:'10px'}}>
               <IonList style={{marginTop: '110px'}}>
                 <IonItem>
-                  <IonLabel position="floating">Email</IonLabel>
+                  <IonLabel position="floating">Email: </IonLabel>
                   <IonInput type="email"></IonInput>
                 </IonItem>
 
                 <IonItem>
-                  <IonLabel position="floating">Password</IonLabel>
+                  <IonLabel position="floating">Username:</IonLabel>
+                  <IonInput type="email"></IonInput>
+                </IonItem>
+
+                <IonItem>
+                  <IonLabel position="floating">Password: </IonLabel>
                   <IonInput type="password"></IonInput>
                 </IonItem>
               </IonList>
@@ -60,12 +65,12 @@ import './Login.css';
             <IonCard style={{backgroundImage:`url(${fit})`,fontSize:'16px',height: '480px' }}>
               <IonList style={{marginTop: '110px'}}>
                 <IonItem>
-                  <IonLabel position="floating">Email</IonLabel>
-                  <IonInput type="email"></IonInput>
+                  <IonLabel position="floating">Username: </IonLabel>
+                  <IonInput type="text"></IonInput>
                 </IonItem>
 
                 <IonItem>
-                  <IonLabel position="floating">Password</IonLabel>
+                  <IonLabel position="floating">Password: </IonLabel>
                   <IonInput type="password"></IonInput>
                 </IonItem>
               </IonList>
