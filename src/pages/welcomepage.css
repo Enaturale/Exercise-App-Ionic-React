@@ -1,0 +1,22 @@
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+    margin-top: 20px;
+    
+}
+
+.pretext{
+    font-size:15px;
+    font-style: italic;
+    color: #848484;
+    margin-top: 20px;
+    vertical-align: middle;
+    
+
+}
+
+.seemore{
+    color:#848484;
+    align-items: flex-end;
+}

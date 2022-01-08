@@ -1,4 +1,4 @@
-import { IonButton, IonContent, IonFab, IonFabButton, IonFabList, IonHeader, IonIcon, IonPage, IonText, IonTitle, IonToolbar, useIonActionSheet } from '@ionic/react';
+import { IonButton, IonCard, IonCardContent, IonCardHeader, IonCardTitle, IonContent, IonFab, IonFabButton, IonFabList, IonHeader, IonIcon, IonLabel, IonPage, IonText, IonTitle, IonToolbar, useIonActionSheet } from '@ionic/react';
 import './welcomepage.css';
 
 
@@ -8,9 +8,55 @@ const Welcome: React.FC = () => {
 
     <IonPage>
         <IonContent>
-            <IonTitle>
-                <h2>Hello, firstname.</h2>
+            <IonTitle className="title">
+                <h2>Hi, Firstname. < IonIcon style={{marginLeft:'49px'}}name='menu-outline'/> </h2>
+
+                
             </IonTitle>
+
+            <IonText className="pretext" >
+                <p  >Your journey to fitness <br/> begins here!</p>
+            </IonText>
+
+            <IonCard>
+              <IonCardHeader>
+                <IonCardTitle>WorkOuts</IonCardTitle>
+              </IonCardHeader>
+              <IonCardContent>
+              <IonText className="seemore"><p>See more</p></IonText>
+                <IonCard>
+                  <IonCardHeader>
+                    <IonCardTitle>Squats</IonCardTitle>
+                  </IonCardHeader>
+                  <IonCardContent>20 Squats per day</IonCardContent>
+                </IonCard>
+
+                <IonCard>
+                  <IonCardHeader>
+                    <IonCardTitle>Squats</IonCardTitle>
+                  </IonCardHeader>
+                  <IonCardContent>20 Squats per day</IonCardContent>
+                </IonCard>
+
+                <IonCard>
+                  <IonCardHeader>
+                    <IonCardTitle>Squats</IonCardTitle>
+                  </IonCardHeader>
+                  <IonCardContent>20 Squats per day</IonCardContent>
+                </IonCard>
+  
+                
+              </IonCardContent>             
+            </IonCard>
+
+            <IonCard>
+              <IonCardHeader>
+                <IonCardTitle>Diets and  Nuritions</IonCardTitle>
+              </IonCardHeader>
+              <IonCardContent>
+
+              </IonCardContent>             
+            </IonCard>
         </IonContent>
     </IonPage>
 

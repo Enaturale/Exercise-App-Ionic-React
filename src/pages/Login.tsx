@@ -40,7 +40,7 @@ import './Login.css';
         <IonContent className="ion-padding" >
           {registerActive ? (
             <IonCard className="card" style={{backgroundImage:`url(${fit})`,height: '460px', paddingTop:'10px'}}>
-              <IonList style={{marginTop: '110px'}}>
+              <IonList style={{marginTop: '100px'}}>
                 <IonItem>
                   <IonLabel position="floating">Email: </IonLabel>
                   <IonInput type="email"></IonInput>
@@ -63,7 +63,7 @@ import './Login.css';
             </IonCard>
           ) : (
             <IonCard style={{backgroundImage:`url(${fit})`,fontSize:'16px',height: '480px' }}>
-              <IonList style={{marginTop: '110px'}}>
+              <IonList style={{marginTop: '100px'}}>
                 <IonItem>
                   <IonLabel position="floating">Username: </IonLabel>
                   <IonInput type="text"></IonInput>

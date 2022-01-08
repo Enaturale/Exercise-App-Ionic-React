@@ -11,7 +11,7 @@ const Home: React.FC = () => {
    
           <IonText>
             <h2 style={{color: "white", fontSize: '50px', marginLeft:'50px', 
-            paddingTop:'140px'}}>
+            paddingTop:'140px', fontWeight:'bold'}}>
               Get Fit!
             </h2>
           </IonText>
