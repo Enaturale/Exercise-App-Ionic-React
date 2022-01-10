@@ -6,6 +6,11 @@
     
 }
 
+IonContent{
+    background-color: #848484;
+}
+
+
 .pretext{
     font-size:15px;
     font-style: italic;
