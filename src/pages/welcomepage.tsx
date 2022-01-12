@@ -7,12 +7,14 @@ const Welcome: React.FC = () => {
   return (
 
     <IonPage>
-        <IonContent>
+        <IonContent style={{overflow: 'hidden'}}>
             <IonTitle className="title">
                 <h2>Hi, Firstname. < IonIcon style={{marginLeft:'49px'}}name='menu-outline'/> </h2>
 
                 
             </IonTitle>
+            <div className='container'>
+              <div className='scroll'>
 
             <IonText className="pretext" >
                 <p  >Your journey to fitness <br/> begins here!</p>
@@ -54,9 +56,26 @@ const Welcome: React.FC = () => {
                 <IonCardTitle>Diets and  Nuritions</IonCardTitle>
               </IonCardHeader>
               <IonCardContent>
+              <IonCard>
+                  <IonCardHeader>
+                    <IonCardTitle>Squats</IonCardTitle>
+                  </IonCardHeader>
+                  <IonCardContent>20 Squats per day</IonCardContent>
+                </IonCard>
+
+                <IonCard>
+                  <IonCardHeader>
+                    <IonCardTitle>Squats</IonCardTitle>
+                  </IonCardHeader>
+                  <IonCardContent>20 Squats per day</IonCardContent>
+                </IonCard>
 
               </IonCardContent>             
             </IonCard>
+
+            </div>
+
+            </div>
         </IonContent>
     </IonPage>
 

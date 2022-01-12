@@ -25,3 +25,31 @@ IonContent{
     color:#848484;
     align-items: flex-end;
 }
+
+
+
+IonContent{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container,
+.scroll{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+}
+
+.container{
+    overflow: hidden;
+}
+
+.scroll{
+    padding-right: 20px;
+    right: -20px;
+    overflow-x: scroll;
+}
