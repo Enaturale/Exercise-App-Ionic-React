@@ -17,13 +17,14 @@ IonContent{
     color: #848484;
     margin-top: 20px;
     vertical-align: middle;
+    margin-left: 20px;
     
 
 }
 
 .seemore{
     color:#848484;
-    align-items: flex-end;
+    align-content: center;
 }
 
 

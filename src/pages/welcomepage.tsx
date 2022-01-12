@@ -16,16 +16,16 @@ const Welcome: React.FC = () => {
             <div className='container'>
               <div className='scroll'>
 
-            <IonText className="pretext" >
-                <p  >Your journey to fitness <br/> begins here!</p>
+            <IonText >
+                <p  className="pretext" >Your journey to fitness begins here!</p>
             </IonText>
 
             <IonCard>
               <IonCardHeader>
-                <IonCardTitle>WorkOuts</IonCardTitle>
+                <IonCardTitle className='title'>WorkOuts</IonCardTitle>
               </IonCardHeader>
               <IonCardContent>
-              <IonText className="seemore"><p>See more</p></IonText>
+              <IonText ><p className="seemore">See more</p></IonText>
                 <IonCard>
                   <IonCardHeader>
                     <IonCardTitle>Squats</IonCardTitle>
@@ -42,7 +42,7 @@ const Welcome: React.FC = () => {
 
                 <IonCard>
                   <IonCardHeader>
-                    <IonCardTitle>Squats</IonCardTitle>
+                    <IonCardTitle >Squats</IonCardTitle>
                   </IonCardHeader>
                   <IonCardContent>20 Squats per day</IonCardContent>
                 </IonCard>
@@ -53,7 +53,7 @@ const Welcome: React.FC = () => {
 
             <IonCard>
               <IonCardHeader>
-                <IonCardTitle>Diets and  Nuritions</IonCardTitle>
+                <IonCardTitle className='title'>Diets and  Nuritions</IonCardTitle>
               </IonCardHeader>
               <IonCardContent>
               <IonCard>
